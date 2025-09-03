@@ -23,34 +23,34 @@ const CTA = () => {
 
           <h2 className="text-3xl md:text-6xl font-bold mb-6">
             <span className="bg-gradient-hero bg-clip-text text-transparent">
-              Transforme Sua Vida
+              Invista na Sua
             </span>
             <br />
-            Ainda Hoje!
+            Capacitação Hoje!
           </h2>
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 leading-relaxed">
-            Não perca mais tempo com agenda vazia. <strong className="text-construction-orange">Comece hoje</strong> a atrair clientes automaticamente com o Google Meu Negócio.
+            Pare de competir apenas no preço. <strong className="text-construction-orange">Seja um especialista</strong> e multiplique sua renda com conhecimento de qualidade.
           </p>
 
           {/* Value proposition */}
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <div className="bg-gradient-card p-6 rounded-2xl shadow-card border border-construction-orange/20">
               <Gift className="w-8 h-8 text-construction-orange mx-auto mb-3" />
-              <h3 className="font-bold text-construction-orange mb-2">BÔNUS EXCLUSIVO</h3>
-              <p className="text-sm text-muted-foreground">Templates prontos para usar</p>
+              <h3 className="font-bold text-construction-orange mb-2">ACESSO VITALÍCIO</h3>
+              <p className="text-sm text-muted-foreground">Estude quando e onde quiser</p>
             </div>
             
             <div className="bg-gradient-card p-6 rounded-2xl shadow-card border border-construction-blue/20">
               <Zap className="w-8 h-8 text-construction-blue mx-auto mb-3" />
-              <h3 className="font-bold text-construction-blue mb-2">RESULTADO RÁPIDO</h3>
-              <p className="text-sm text-muted-foreground">Primeiros clientes em 7 dias</p>
+              <h3 className="font-bold text-construction-blue mb-2">CERTIFICAÇÃO</h3>
+              <p className="text-sm text-muted-foreground">Certificados reconhecidos</p>
             </div>
             
             <div className="bg-gradient-card p-6 rounded-2xl shadow-card border border-primary/20">
               <Phone className="w-8 h-8 text-primary mx-auto mb-3" />
               <h3 className="font-bold text-primary mb-2">SUPORTE TOTAL</h3>
-              <p className="text-sm text-muted-foreground">Acompanhamento personalizado</p>
+              <p className="text-sm text-muted-foreground">Instrutores especializados</p>
             </div>
           </div>
 
@@ -63,13 +63,13 @@ const CTA = () => {
               className="text-xl px-12 py-8 mx-auto block w-full max-w-md shadow-cta hover:shadow-glow transform hover:scale-105 transition-all duration-300"
             >
               <Phone className="w-6 h-6 mr-3" />
-              QUERO LOTAR MINHA AGENDA
+              QUERO ME CAPACITAR AGORA
             </Button>
 
             <p className="text-sm text-muted-foreground">
-              ✅ Acesso imediato por WhatsApp<br />
-              ✅ Método testado e comprovado<br />
-              ✅ Suporte até você ter resultado
+              ✅ Acesso imediato aos cursos<br />
+              ✅ Certificação reconhecida<br />
+              ✅ Suporte especializado incluído
             </p>
           </div>
 
@@ -87,7 +87,7 @@ const CTA = () => {
           {/* Final urgency */}
           <div className="mt-8 text-center">
             <p className="text-lg font-semibold text-destructive">
-              ⚠️ Vagas limitadas! Não deixe para amanhã o que pode mudar sua vida hoje.
+              ⚠️ Oferta limitada! Invista na sua capacitação antes que os preços subam.
             </p>
           </div>
         </div>

@@ -4,38 +4,38 @@ const Benefits = () => {
   const benefits = [
     {
       icon: Calendar,
-      title: "Agenda Sempre Lotada",
-      description: "Nunca mais fique sem trabalho. Clientes vão te procurar diariamente.",
+      title: "Capacitação Completa",
+      description: "Do técnico ao empresarial: domine todas as áreas da elétrica.",
       color: "construction-orange"
     },
     {
       icon: DollarSign,
-      title: "Renda 3x Maior",
-      description: "Aumente seus ganhos com mais clientes e serviços de maior valor.",
+      title: "Renda Até 5x Maior",
+      description: "Profissionais capacitados cobram mais e têm mais oportunidades.",
       color: "construction-blue"
     },
     {
       icon: Clock,
-      title: "Economia de Tempo",
-      description: "Pare de caçar clientes. Foque apenas no que você faz de melhor.",
+      title: "Aprenda no Seu Ritmo",
+      description: "Acesso vitalício para estudar quando e onde quiser.",
       color: "primary"
     },
     {
       icon: Shield,
-      title: "Credibilidade Profissional",
-      description: "Avaliações positivas te posicionam como referência na região.",
+      title: "Certificação Reconhecida",
+      description: "Certificados que agregam valor ao seu currículo profissional.",
       color: "accent"
     },
     {
       icon: Target,
-      title: "Clientes Próximos",
-      description: "Atenda apenas na sua região, reduzindo custos de deslocamento.",
+      title: "Foco na Prática",
+      description: "Teoria aplicada com exercícios e casos reais do mercado.",
       color: "construction-orange"
     },
     {
       icon: Zap,
-      title: "Resultados Rápidos",
-      description: "Primeiros clientes aparecem em até 7 dias após configuração.",
+      title: "Suporte Especializado",
+      description: "Tire dúvidas com instrutores experientes do mercado.",
       color: "construction-blue"
     }
   ];
@@ -48,7 +48,7 @@ const Benefits = () => {
             Transforme Sua <span className="bg-gradient-hero bg-clip-text text-transparent">Carreira</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Veja como o Google Meu Negócio pode revolucionar seu negócio e sua vida financeira
+            Veja como nossos cursos podem revolucionar sua carreira e multiplicar sua renda
           </p>
         </div>
 
@@ -85,11 +85,11 @@ const Benefits = () => {
               <ul className="space-y-3">
                 <li className="flex items-center gap-3 text-muted-foreground">
                   <div className="w-2 h-2 bg-destructive rounded-full"></div>
-                  Agenda vazia, esperando indicações
+                  Conhecimento limitado e desatualizado
                 </li>
                 <li className="flex items-center gap-3 text-muted-foreground">
                   <div className="w-2 h-2 bg-destructive rounded-full"></div>
-                  Renda instável e imprevisível
+                  Dificuldade para conseguir clientes
                 </li>
                 <li className="flex items-center gap-3 text-muted-foreground">
                   <div className="w-2 h-2 bg-destructive rounded-full"></div>
@@ -97,7 +97,7 @@ const Benefits = () => {
                 </li>
                 <li className="flex items-center gap-3 text-muted-foreground">
                   <div className="w-2 h-2 bg-destructive rounded-full"></div>
-                  Tempo perdido procurando trabalho
+                  Falta de gestão e organização
                 </li>
               </ul>
             </div>
@@ -108,19 +108,19 @@ const Benefits = () => {
               <ul className="space-y-3">
                 <li className="flex items-center gap-3 text-muted-foreground">
                   <div className="w-2 h-2 bg-construction-orange rounded-full"></div>
-                  Agenda lotada com antecedência
+                  Conhecimento técnico especializado
                 </li>
                 <li className="flex items-center gap-3 text-muted-foreground">
                   <div className="w-2 h-2 bg-construction-orange rounded-full"></div>
-                  Renda 3x maior e previsível
+                  Agenda lotada e renda até 5x maior
                 </li>
                 <li className="flex items-center gap-3 text-muted-foreground">
                   <div className="w-2 h-2 bg-construction-orange rounded-full"></div>
-                  Você escolhe os melhores clientes
+                  Negócio organizado e lucrativo
                 </li>
                 <li className="flex items-center gap-3 text-muted-foreground">
                   <div className="w-2 h-2 bg-construction-orange rounded-full"></div>
-                  Foco total no seu trabalho
+                  Reconhecimento como especialista
                 </li>
               </ul>
             </div>

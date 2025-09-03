@@ -26,16 +26,16 @@ const Hero = () => {
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                 <span className="bg-gradient-hero bg-clip-text text-transparent">
-                  Lote Sua Agenda
+                  Academia do
                 </span>
                 <br />
                 <span className="text-foreground">
-                  de Clientes em 30 Dias
+                  Eletricista Profissional
                 </span>
               </h1>
               
               <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-                Aprenda o método exclusivo para criar um perfil no <strong className="text-construction-orange">Google Meu Negócio</strong> que atrai clientes automaticamente para eletricistas, encanadores e pedreiros.
+                Do básico ao avançado: <strong className="text-construction-orange">Cursos completos</strong> para eletricistas que querem dominar a profissão, conseguir mais clientes e aumentar a renda.
               </p>
             </div>
 
@@ -45,8 +45,8 @@ const Hero = () => {
                 <div className="flex justify-center mb-2">
                   <Users className="w-8 h-8 text-construction-orange" />
                 </div>
-                <div className="text-2xl font-bold text-construction-orange">500+</div>
-                <div className="text-sm text-muted-foreground">Profissionais</div>
+                <div className="text-2xl font-bold text-construction-orange">1000+</div>
+                <div className="text-sm text-muted-foreground">Alunos</div>
               </div>
               
               <div className="text-center p-4 bg-gradient-card rounded-lg shadow-card">
@@ -61,8 +61,8 @@ const Hero = () => {
                 <div className="flex justify-center mb-2">
                   <Calendar className="w-8 h-8 text-primary" />
                 </div>
-                <div className="text-2xl font-bold text-primary">30</div>
-                <div className="text-sm text-muted-foreground">Dias</div>
+                <div className="text-2xl font-bold text-primary">4</div>
+                <div className="text-sm text-muted-foreground">Cursos</div>
               </div>
             </div>
 
@@ -71,20 +71,20 @@ const Hero = () => {
               <Button 
                 variant="cta" 
                 size="lg" 
-                onClick={handleWhatsApp}
+                onClick={() => document.getElementById('cursos')?.scrollIntoView({ behavior: 'smooth' })}
                 className="text-lg px-8 py-6"
               >
                 <Phone className="w-5 h-5 mr-2" />
-                Quero Lotar Minha Agenda
+                Ver Todos os Cursos
               </Button>
               
               <Button 
                 variant="hero" 
                 size="lg" 
                 className="text-lg px-8 py-6"
-                onClick={() => document.getElementById('benefits')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={handleWhatsApp}
               >
-                Ver Como Funciona
+                Falar no WhatsApp
               </Button>
             </div>
 
@@ -95,7 +95,7 @@ const Hero = () => {
                   <Star key={i} className="w-4 h-4 fill-construction-orange text-construction-orange" />
                 ))}
               </div>
-              <span>Mais de 500 profissionais já transformaram seus negócios</span>
+              <span>Mais de 1000 eletricistas já se capacitaram conosco</span>
             </div>
           </div>
 

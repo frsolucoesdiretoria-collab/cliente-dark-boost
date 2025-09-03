@@ -7,23 +7,23 @@ const Testimonials = () => {
       name: "Carlos Silva",
       profession: "Eletricista",
       location: "São Paulo - SP",
-      text: "Em 15 dias minha agenda estava completamente lotada. Hoje recuso serviços porque não consigo atender tanta demanda!",
+      text: "Fiz o curso técnico e o de vendas. Em 3 meses aumentei minha renda em 400%. Agora tenho agenda lotada e cobro o que mereço!",
       rating: 5,
       image: happyWorker
     },
     {
       name: "João Santos",
-      profession: "Encanador",
+      profession: "Eletricista",
       location: "Rio de Janeiro - RJ",
-      text: "Triplicou meu faturamento em 2 meses. Agora posso escolher os melhores clientes e trabalhar na minha região.",
+      text: "O curso de gestão me ensinou a abrir minha empresa. Hoje tenho 3 funcionários e faturamento mensal de R$ 25 mil!",
       rating: 5,
       image: happyWorker
     },
     {
       name: "Pedro Costa",
-      profession: "Pedreiro",
+      profession: "Eletricista",
       location: "Belo Horizonte - MG",
-      text: "Nunca imaginei que o Google pudesse me trazer tantos clientes. Método simples, mas funciona mesmo!",
+      text: "Comecei do zero no curso técnico. Hoje sou especialista em automação residencial e ganho R$ 8 mil por mês!",
       rating: 5,
       image: happyWorker
     }
@@ -34,10 +34,10 @@ const Testimonials = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            O Que Nossos <span className="bg-gradient-hero bg-clip-text text-transparent">Alunos</span> Falam
+            Histórias de <span className="bg-gradient-hero bg-clip-text text-transparent">Transformação</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Profissionais reais que transformaram seus negócios com nosso método
+            Veja como nossos alunos revolucionaram suas carreiras e multiplicaram suas rendas
           </p>
         </div>
 
@@ -91,13 +91,13 @@ const Testimonials = () => {
         <div className="mt-16 bg-gradient-card p-8 rounded-2xl shadow-card max-w-4xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-construction-orange mb-2">500+</div>
-              <div className="text-sm text-muted-foreground">Profissionais Treinados</div>
+              <div className="text-3xl md:text-4xl font-bold text-construction-orange mb-2">1000+</div>
+              <div className="text-sm text-muted-foreground">Alunos Capacitados</div>
             </div>
             
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-construction-blue mb-2">98%</div>
-              <div className="text-sm text-muted-foreground">Taxa de Sucesso</div>
+              <div className="text-3xl md:text-4xl font-bold text-construction-blue mb-2">95%</div>
+              <div className="text-sm text-muted-foreground">Satisfação</div>
             </div>
             
             <div>
@@ -106,8 +106,8 @@ const Testimonials = () => {
             </div>
             
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">7</div>
-              <div className="text-sm text-muted-foreground">Dias para Resultado</div>
+              <div className="text-3xl md:text-4xl font-bold text-accent mb-2">4</div>
+              <div className="text-sm text-muted-foreground">Cursos Disponíveis</div>
             </div>
           </div>
         </div>
