@@ -24,7 +24,8 @@ const Courses = () => {
         "Exercícios práticos",
         "Acesso vitalício"
       ],
-      badge: "MAIS VENDIDO"
+      badge: "MAIS VENDIDO",
+      path: "/curso-tecnico"
     },
     {
       id: 2,
@@ -43,26 +44,8 @@ const Courses = () => {
         "Templates prontos",
         "Mentoria em grupo"
       ],
-      badge: "RESULTADO GARANTIDO"
-    },
-    {
-      id: 3,
-      title: "Gestão Empresarial",
-      subtitle: "Formalização e Gestão Financeira",
-      description: "Transforme seu negócio em empresa. Gestão financeira, formalização, gestão de equipes e crescimento sustentável.",
-      price: "R$ 497",
-      originalPrice: "R$ 997",
-      icon: Users,
-      color: "primary",
-      features: [
-        "Como abrir MEI/ME",
-        "Controle financeiro",
-        "Gestão de equipes",
-        "Precificação estratégica",
-        "Planejamento empresarial",
-        "Consultoria individual"
-      ],
-      badge: "MAIS COMPLETO"
+      badge: "RESULTADO GARANTIDO",
+      path: "/curso-comercial"
     }
   ];
 
@@ -88,7 +71,7 @@ const Courses = () => {
         </div>
 
         {/* Main Courses */}
-        <div className="grid lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid lg:grid-cols-2 gap-8 mb-16">
           {mainCourses.map((course) => {
             const Icon = course.icon;
             return (
@@ -139,11 +122,11 @@ const Courses = () => {
                 <Button 
                   variant="cta" 
                   size="lg" 
-                  onClick={handleWhatsApp}
+                  onClick={() => window.location.href = course.path}
                   className="w-full text-lg py-6"
                 >
-                  <Phone className="w-5 h-5 mr-2" />
-                  Quero Este Curso
+                  <BookOpen className="w-5 h-5 mr-2" />
+                  Ver Detalhes do Curso
                 </Button>
 
                 {/* Rating */}
